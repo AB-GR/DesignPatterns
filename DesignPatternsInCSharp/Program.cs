@@ -4,7 +4,9 @@
 	{
 		static void Main(string[] args)
 		{
-			Console.WriteLine("Hello, World!");
+			var opExample = new OpenClosedExample();
+			opExample.Run();
+			Console.ReadLine();
 		}
 	}
 }
