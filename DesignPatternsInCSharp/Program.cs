@@ -8,8 +8,10 @@
 			//opExample.Run();
 			//var liExample = new LiskovSubstitutionExample();
 			//liExample.Run();
-			var siExample = new SingletonExample();
-			siExample.Run();	
+			//var siExample = new SingletonExample();
+			//siExample.Run();	
+			var obsPattern = new ObserverPatternExample();
+			obsPattern.Run();
 			Console.ReadLine();
 		}
 	}
